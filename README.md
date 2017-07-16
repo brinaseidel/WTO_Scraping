@@ -7,4 +7,4 @@ This includes code to scrape:
 2. The WTO database of regional trade agreements (RTAs) 
   https://rtais.wto.org/UI/PublicMaintainRTAHome.aspx
   
-The output results of this are also included as csvs in the Output Data
+The data scraped by these programs are also included as CSVs. 
