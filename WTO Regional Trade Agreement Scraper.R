@@ -2,7 +2,7 @@
 # 5/24/2017
 
 rm(list = ls())
-setwd("/Users/brinaseidel/Documents/Work/Brookings/WTO Scraping/")
+setwd(" xxx Change Directory xxx ")
 
 library(RSelenium)
 library(stringr)
@@ -12,7 +12,7 @@ library(stringr)
 # ******************************
 
 # Create the server object (?)
-selServ <- RSelenium::startServer(javaargs = c("-Dwebdriver.gecko.driver=\"/Users/brinaseidel/Documents/Work/Brookings/Scraping/geckodriver\""))
+selServ <- RSelenium::startServer(javaargs = c("-Dwebdriver.gecko.driver=\" xxx Change Directory xxx \geckodriver\""))
 
 # Start the remote driver
 rem_dr <- remoteDriver(port = 4445, browser="firefox", extraCapabilities = list(marionette = TRUE))
